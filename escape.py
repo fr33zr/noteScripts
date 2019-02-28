@@ -17,6 +17,7 @@ escapes = [
 	''' \\ooo - Character with octal value oo''',
 	''' \\xhh - Character with hex value hh''',
 ]
+print ("\t*** Executing Escape Sequence Cheat Sheet ***")
 for escape in escapes:
 	print ('\t* ' + escape)
 	time.sleep(.5)
